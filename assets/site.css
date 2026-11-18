@@ -105,7 +105,7 @@ i.g { background: var(--ig); }
 .lc-note { display: block; margin-top: 10px; color: var(--muted); }
 
 /* reading pages */
-.page { max-width: 720px; }
+.page { max-width: 600px; } /* about 85 characters a line at 15px */
 .back { display: inline-flex; align-items: center; min-height: 32px; margin-bottom: 14px; font: 400 15px/22px var(--narrow); color: var(--muted); text-decoration: none; }
 .page h1 { margin: 0 0 10px; font: 400 28px/1.2 var(--display); }
 .page .lede { margin: 0 0 16px; font-size: 16px; line-height: 1.45; color: var(--soft); }
@@ -312,3 +312,4 @@ dialog.lightbox::backdrop { background: rgba(0,0,0,.94); }
   figure, tr, .pics { break-inside: avoid; }
   .stats div b { color: #000 !important; }
 }
+
