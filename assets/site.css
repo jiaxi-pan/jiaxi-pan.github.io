@@ -10,7 +10,7 @@
   --xhs: #141414;
   --ig: #b3ada2;
   --ig-ink: #6b6760;
-  --display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --display: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --narrow: var(--display);
   --body: var(--display);
 }
