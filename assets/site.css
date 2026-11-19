@@ -354,3 +354,11 @@ details.more summary span { margin-left: auto; font-weight: 400; color: var(--mu
 details.more[open] summary { margin-bottom: 28px; }
 .card-media img.top { object-position: center top; }
 a.zoom, a.thumb, a.card { text-decoration: none; }
+/* portrait (Seth 2026-11-19) */
+.portrait { margin: 0; background: var(--tile); }
+.portrait img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+.home-portrait { width: 160px; aspect-ratio: 4 / 5; overflow: hidden; margin-bottom: 4px; }
+.about-intro { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 28px; align-items: start; }
+.about-intro .portrait { aspect-ratio: 4 / 5; overflow: hidden; }
+.about-intro p:first-child { margin-top: 0; }
+@media (max-width: 700px) { .about-intro { grid-template-columns: minmax(0, 1fr); gap: 16px; } .about-intro .portrait { width: 160px; } }
